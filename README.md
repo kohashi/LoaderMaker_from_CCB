@@ -5,7 +5,7 @@ LoaderMaker_from_CCB
 
 ## How to use
 
-1. Download all .rb files.
+1. Download all .rb files from [here](https://github.com/kohashi/LoaderMaker_from_CCB/archive/master.zip "zip download").
 2. Open load_maker.rb on your text editor.
 3. Edit a few setting as your environment.
 4. Run "ruby load_maker.rb" command.
