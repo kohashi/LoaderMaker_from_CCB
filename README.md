@@ -13,17 +13,19 @@ LoaderMaker_from_CCB
 6. Edit AppDelegete.cpp like as follows:
 
  bool AppDelegate::applicationDidFinishLaunching()
-`
+ 
+```cpp
     CCNodeLoaderLibrary* ccNodeLoaderLibrary = CCNodeLoaderLibrary::sharedCCNodeLoaderLibrary();
     LoadFunc::registerLoader(); 
-`
+```
 
 
 ## Output details
 
 
 LoadFunc.h
-`
+
+```cpp
 #include "cocos2d.h"
 #include "cocos-ext.h"
 
@@ -59,7 +61,7 @@ LoadFunc.h
       };
 #endif //__projName__LoadFunc__)
 
-`
+```
 
 
 
@@ -70,8 +72,9 @@ LoadFunc.h
 
 
 LoadFunc.cpp
-`
-#include "LoadFunc.h"
+
+```cpp
+ #include "LoadFunc.h"
       //-----------------------------------
     //../CCB/module/MyCCBLayer.ccb
     #ifdef __projName__MYCCBLayer__
@@ -97,10 +100,7 @@ LoadFunc.cpp
       return NULL;
     };
     #endif
-
-
-
-`
+```
 
 
 
