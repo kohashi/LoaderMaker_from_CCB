@@ -11,14 +11,14 @@ require 'load_func_maker'
 
 # set your project name for apply include-guard prefix.
 #  e.g. #ifdef __projectName__ClassName__
-project_name = "zoffy"
+project_name = "yourProjectName"
 
 # set path of CCB files.
-ccb_dir = "../zoffy/CCB/"
+ccb_dir = "../yourProject/CCB/"
 
 # set path of output files
-path_to_h = "../zoffy/Classes/View/LoadFunc.h"
-path_to_cpp = "../zoffy/Classes/View/LoadFunc.cpp"
+path_to_h = "../yourProject/Classes/LoadFunc.h"
+path_to_cpp = "../yourProject/Classes/LoadFunc.cpp"
 
 
 
